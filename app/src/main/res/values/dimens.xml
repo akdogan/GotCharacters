@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_margin">8dp</dimen>
+    <dimen name="top_bottom_margin">16dp</dimen>
+    <dimen name="cards_vertical_margin">16dp</dimen>
+    <dimen name="default_textsize">16sp</dimen>
+</resources>

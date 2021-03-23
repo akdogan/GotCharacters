@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_item_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/cards_vertical_margin"
+    android:layout_marginBottom="@dimen/cards_vertical_margin"
+    android:layout_marginLeft="@dimen/top_bottom_margin"
+    android:layout_marginRight="@dimen/top_bottom_margin"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/list_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_bottom_margin"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:textSize="@dimen/default_textsize"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/list_item_aliases"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="PlaceHolder Text Name"/>
+
+        <TextView
+            android:id="@+id/list_item_aliases"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:textSize="@dimen/default_textsize"
+            app:layout_constraintBottom_toTopOf="@+id/list_item_titles"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/list_item_name"
+            tools:text="PlaceHolder Text Aliases"/>
+
+        <TextView
+            android:id="@+id/list_item_titles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:textSize="@dimen/default_textsize"
+            app:layout_constraintBottom_toTopOf="@+id/list_item_born"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/list_item_aliases"
+            tools:text="PlaceHolder Text Titles"/>
+
+        <TextView
+            android:id="@+id/list_item_born"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:textSize="@dimen/default_textsize"
+            app:layout_constraintBottom_toTopOf="@+id/list_item_died"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/list_item_titles"
+            tools:text="PlaceHolder Text Born"/>
+
+        <TextView
+            android:id="@+id/list_item_died"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin"
+            android:layout_marginBottom="@dimen/top_bottom_margin"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:textSize="@dimen/default_textsize"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/list_item_born"
+            tools:text="PlaceHolder Text Died"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SW Characters</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="color_header">Text Colors</string>
+    <string name="list_header">Main List Settings</string>
+
+    <!-- List Preferences -->
+    <string name="settings_show_grid_title">Display main screen as..</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="settings_show_grid_summary_off">Grid</string>
+    <string name="settings_show_grid_summary_on">List</string>
+
+    <!-- Preference key -->
+    <string name="preference_show_grid" translatable="false">preference_show_grid</string>
+    <string name="preference_text_color" translatable="false">preference_text_color</string>
+
+    <string name="preference_text_color_title">Select Text Color</string>
+
+    <!-- color_entries Strings -->
+    <string name="preference_color_entries_red" translatable="false">Red</string>
+    <string name="preference_color_entries_blue" translatable="false">Blue</string>
+    <string name="preference_color_entries_orange" translatable="false">Orange</string>
+
+    <!-- color_entries values -->
+    <string name="preference_color_values_red" translatable="false">pref_red</string>
+    <string name="preference_color_values_blue" translatable="false">pref_blue</string>
+    <string name="preference_color_values_orange" translatable="false">pref_orange</string>
+
+    <!-- Default Values -->
+    <string name="preference_text_color_def_value" translatable="false">@string/preference_color_entries_red</string>
+
+</resources>

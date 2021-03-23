@@ -1,0 +1,14 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="color_entries">
+        <item>@string/preference_color_entries_red</item>
+        <item>@string/preference_color_entries_blue</item>
+        <item>@string/preference_color_entries_orange</item>
+    </string-array>
+
+    <string-array name="color_values">
+        <item>@string/preference_color_values_red</item>
+        <item>@string/preference_color_values_blue</item>
+        <item>@string/preference_color_values_orange</item>
+    </string-array>
+</resources>

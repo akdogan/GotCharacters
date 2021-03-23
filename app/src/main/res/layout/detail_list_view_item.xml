@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:minHeight="64dp">
+
+    <TextView
+        android:id="@+id/detail_list_title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        />
+
+
+    <TextView
+        android:id="@+id/detail_list_item_secondary_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_list_title_text"
+        android:layout_gravity="center_vertical"
+        android:textSize="14sp"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:maxLines="2"
+        />
+
+    <com.akdogan.swcharacters.ui.detail.HorizontalDividerView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="8dp"
+        android:layout_alignParentBottom="true"
+        app:dividerColor="@color/divColor"
+        app:dividerSize="2"/>
+
+</RelativeLayout>

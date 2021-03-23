@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/list_header">
+
+        <SwitchPreferenceCompat
+            app:key="@string/preference_show_grid"
+            app:title="@string/settings_show_grid_title"
+            app:summaryOn="@string/settings_show_grid_summary_on"
+            app:summaryOff="@string/settings_show_grid_summary_off"
+            app:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/color_header">
+
+        <ListPreference
+
+            app:entries="@array/color_entries"
+            app:entryValues="@array/color_values"
+            app:key="@string/preference_text_color"
+            app:title="@string/preference_text_color_title"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="@string/preference_color_entries_blue"/>
+
+    </PreferenceCategory>
+
+
+
+
+</PreferenceScreen>
